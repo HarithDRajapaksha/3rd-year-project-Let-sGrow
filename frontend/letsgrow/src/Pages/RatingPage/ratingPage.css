@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+#rating-page-content {
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Top Section */
+#rating-page-top-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#rating-page-top-title {
+    font-size: 2.5rem;
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+#rating-page-top-details {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Middle Section */
+#rating-page-middle-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Left Section */
+#rating-page-middle-section-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 40%;
+}
+
+#rate-us-rating span {
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+#rating-us-comment-section textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    font-size: 1rem;
+}
+
+#rating-page-email {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#submit-rating-button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submit-rating-button:hover {
+    background-color: #45a049;
+}
+
+/* Right Section */
+#rating-page-middle-section-right {
+    flex: 1;
+    max-width: 40%;
+}
+
+#rate-us-rate-details {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#rate-us-value {
+    font-size: 3rem;
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+#rate-us-rating-view span {
+    font-size: 2rem;
+}
+
+/* Rating Bars */
+.rating-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rating-bar .label {
+    flex: 1;
+    font-size: 1rem;
+    color: #333;
+}
+
+.rating-bar .bar {
+    flex: 3;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.rating-bar .bar .fill {
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 0.3s ease;
+}
+
+.rating-bar .count {
+    flex: 1;
+    text-align: right;
+    font-size: 1rem;
+    color: #666;
+}

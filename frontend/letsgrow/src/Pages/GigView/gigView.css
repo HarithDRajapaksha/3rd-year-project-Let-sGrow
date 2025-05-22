@@ -1,0 +1,141 @@
+/* Container */
+.gig-view-container {
+  max-width: 900px;
+  margin: 2.5rem auto;
+  padding: 2.5rem 2rem;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(99,102,241,0.10);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Header */
+.gig-header {
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.gig-header h1 {
+  font-size: 2.3rem;
+  color: #3730a3;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+.gig-meta {
+  display: flex;
+  gap: 1.5rem;
+  color: #64748b;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.gig-meta .industry,
+.gig-meta .location {
+  background: #e0e7ff;
+  color: #3730a3;
+  padding: 0.25rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.98rem;
+}
+
+/* Image */
+.gig-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.gig-image img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(99,102,241,0.10);
+  border: 1.5px solid #e0e7ff;
+}
+
+/* Main Content */
+.main-content {
+  margin-top: 1.5rem;
+}
+
+.gig-section {
+  margin-bottom: 1.4rem;
+  padding: 1.1rem 1.2rem;
+  background: #f8fafc;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(99,102,241,0.04);
+  border: 1px solid #e0e7ff;
+}
+
+.gig-section h3 {
+  margin: 0 0 0.4rem 0;
+  color: #2563eb;
+  font-size: 1.08rem;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.gig-section p,
+.gig-section a {
+  margin: 0;
+  color: #374151;
+  font-size: 1.01rem;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+.gig-section a {
+  color: #2563eb;
+  text-decoration: underline;
+  word-break: break-all;
+  font-weight: 500;
+}
+
+.gig-section a:hover {
+  color: #1d4ed8;
+}
+
+/* Optional: Loading and Not Found */
+.loading {
+  text-align: center;
+  color: #6366f1;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+}
+
+/* Edit Gig button */
+.edit-gig-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 1rem 0 0 0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.edit-gig-btn:hover,
+.edit-gig-btn:focus {
+  background-color: #0056b3;
+}
+
+/* Save All button */
+.save-gig-btn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 1rem 0 0 0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.save-gig-btn:hover,
+.save-gig-btn:focus {
+  background-color: #1e7e34;
+}

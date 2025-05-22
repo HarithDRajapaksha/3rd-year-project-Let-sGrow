@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  }
+  
+  .register-container {
+    max-width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .register-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .register-subtitle {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #666;
+    font-family: Judson;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .reg-firstname,
+  .reg-lastname,
+  .reg-role,
+  .reg-phonenumber,
+  .reg-email,
+  .reg-password,
+  .reg-confirmpassword,
+  .price-range,
+  .reg-categories
+  {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 15px;
+    border: 2px solid #29a785;
+    position: relative;
+    height: 10px;
+  }
+
+  .user-icon,
+  .role-icon,
+  .phone-icon,
+  .email-icon,
+  .password-icon,
+  .confirm-password-icon,
+  .usd-icon,
+  .categories-icon 
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 12px;
+    font-size: 20px;
+    color: #218c6e;
+    z-index: 2;
+    background-color: white;
+    margin-right: 15px;
+  }
+
+  .input:focus ~ .user-icon,
+  .input:valid ~ .user-icon,
+  .input:focus ~ .phone-icon,
+  .input:valid ~ .phone-icon,
+  .input:focus ~ .email-icon,
+  .input:valid ~ .email-icon,
+  .input:focus ~ .password-icon,
+  .input:valid ~ .password-icon,
+  .input:focus ~ .confirm-password-icon,
+  .input:valid ~ .confirm-password-icon,
+  .input:focus ~ .usd-icon,
+  .input:valid ~ .usd-icon,
+  .input:focus ~ .Catergories-icon,
+  .input:valid ~ .Catergories-icon
+   { 
+    top: -31px;
+    margin: 2px;
+    font-size: 14px;
+    background-color: none;
+  }
+
+  .input:focus ~label,
+  .input:valid ~label {
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    font-size: 14px;
+    width: fit-content;
+    text-align: left;
+    color: var(--black-color);
+    padding: 0 10px;
+    background-color: rgb(255, 255, 255); 
+    z-index: 1;
+  } 
+
+  .rf-label
+  {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background: none;
+  }
+ 
+  .register-button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #29a785;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-button:hover {
+    background-color: #218c6e;
+  }
+  
+  .login-link {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .login-link a {
+    color: #29a785;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+
+  .eye-outline-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #218c6e;
+    z-index: 2;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .reg-error{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: red;
+    z-index: 2;
+  }
+ 

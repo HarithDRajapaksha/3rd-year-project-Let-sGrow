@@ -1,2 +1,2 @@
-# 3rd-year-project-Let-sGrow
+# Let-sGrow
 3rd year Group Project

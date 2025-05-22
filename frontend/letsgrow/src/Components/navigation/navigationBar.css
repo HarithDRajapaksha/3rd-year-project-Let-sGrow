@@ -1,0 +1,73 @@
+/* --- Layout --- */
+.nav-content {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f6fb;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* --- Left Section --- */
+.nav-dashboard-left-section {
+  background: linear-gradient(135deg, #6366f1 0%, #a5b4fc 100%);
+  padding: 32px 0;
+  width: 250px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 2px 0 12px rgba(0,0,0,0.04);
+}
+
+.nav-dashboard-left-section-logo-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.nav-dashboard-left-section-logo-name img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: #fff;
+  object-fit: cover;
+}
+
+.nav-dashboard-left-section-logo-name h1 {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.nav-dashboard-left-navigation {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+
+.nav-dashboard-left-top-section-profile,
+.nav-dashboard-left-bottom-section-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav-left-icon {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: 7px;
+  color: #3730a3;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+}
+
+.nav-left-icon:hover {
+  background: #ede9fe;
+  color: #4f46e5;
+}

@@ -1,0 +1,90 @@
+.profile-settings {
+    width: calc(100% - 40px);
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+
+  .profile-settings-startup-profile-view
+  {
+    margin-left: 17%;
+  }
+  
+  .profile-settings-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .profile-settings-section {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-settings-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #21a2f8;
+  }
+  
+  .profile-settings-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #e0e0e0;
+    border-radius: 6px;
+    margin-bottom: 8px;
+  }
+  
+  .profile-settings-icon {
+    font-size: 1.2rem;
+    color: #21a2f8;
+    margin-right: 10px;
+  }
+  
+  .profile-settings-edit-icon, .profile-settings-view-icon, .profile-settings-save-icon, .profile-settings-cancel-icon {
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 10px;
+    transition: 0.3s;
+  }
+  
+  .profile-settings-edit-icon:hover {
+    color: #347CCB;
+  }
+  
+  .profile-settings-save-icon:hover {
+    color: #45a049;
+  }
+  
+  .profile-settings-cancel-icon:hover {
+    color: #d63428;
+  }
+  
+  .profile-settings-edit-dropdown {
+    flex-grow: 1;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+.profile-settings-profile-preview {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 16px;
+  border: 2px solid #21a2f8;
+}
+.profile-settings-profile-preview:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}

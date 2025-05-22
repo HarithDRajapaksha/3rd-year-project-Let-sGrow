@@ -1,0 +1,282 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+/*Header section*/
+
+#LandingPageheaderpart1 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 40px;
+    margin-bottom: 5px;
+}
+
+#LandingPageheaderpart1a
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#LandingPageheaderpart1b
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#LandingPageheaderpart img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: none;
+    position: absolute;
+    inset: 5px;
+    border: 5px solid white;
+    z-index: 1;
+}
+
+#LandingPageheaderpart2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    gap: 50px;
+}
+
+#LandingPageheaderpart1 #LandingPageheaderpart2 button
+{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+
+#LandingPageheaderpart2 #LangingpageArticleButton button
+{
+    border: none;
+    background: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#LandingPageheaderpart2 #LangingpageLoginButton
+{
+    background-color: #0048FF;
+    color: white;
+    cursor: pointer;
+}
+
+#LandingPageheaderpart2 #LangingpageSignupButton
+{
+    background-color: #00B7FF;
+    color: white;
+    cursor: pointer;
+}
+
+#darkModeIcon img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    position: relative;
+    margin-top: -12px;
+    margin-left: -15px;
+}
+
+/*Body section*/
+#bodypart1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+  
+#bodypart1a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: black;
+}
+  
+#bodypart1b img {
+    width: 100%;
+    height: 657px;
+    opacity: 0.1;
+}
+
+#bodypart h1, #bodypart h2, #bodypart p  
+{
+    text-align: left;
+}
+
+#bodypart h1  
+{
+    color: blue;
+    font-size: 100px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#bodypart h2
+{
+    font-size: 70px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+#bodypart h1, #bodypart h2
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#bodypart p
+{
+    margin-top: 50px;
+}
+
+#topic
+{
+    font-size: 35px;
+}
+
+#LangingpageJoinNowButton
+{
+    background-color: #0048FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+/* About us section */
+#aboutuspart
+{
+    background-color: #5F5F60;
+}
+
+#aboutuspartimage
+{
+    background-color: #4f5050;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+#LandingPageaboutuspart h2
+{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#LandingPageaboutuspart #aboutuspart
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    z-index: 5;
+}
+
+#LandingPageaboutuspart #aboutuspart
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    z-index: 5;
+}
+
+#LandingPageaboutuspart {
+    position: relative;
+}
+
+#LandingPageaboutuspart1 {
+    position: absolute;
+    top: 0;
+    left: 1%;
+    font-size: 100px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#LandingPageaboutuspartDetails
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+    margin-left: 80px;
+    margin-top: 80px;
+    text-align: left;
+    color: white;
+}
+
+#LandingPageaboutuspartDetails h3
+{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#LandingPageaboutuspartDetails p
+{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*rating*/
+#landing-page-rating
+{
+    margin-top: -250px;
+}
+
+/* Footer section */
+#footerpart
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #edfffa;
+    height: 300px;
+}
+
+#footerpartilogoimage img
+{
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+#socialMediaIcons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#socialMediaIcons img
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
